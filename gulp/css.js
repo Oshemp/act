@@ -1,8 +1,6 @@
 function css(gulp, config) {
     var logHandler = config.logHandler();
     var log = logHandler.log;
-    var warn = logHandler.warn;
-    var load = logHandler.load;
     var success = logHandler.success;
     var logRequire = logHandler.require;
     var sass = logRequire('gulp-sass');
@@ -12,10 +10,8 @@ function css(gulp, config) {
     var rename = logRequire('gulp-rename');
 
     var fileScss = '**/*.scss';
-    var fileCss = '**/*.css';
     var destCss = config.src + 'css/';
     var compileScss = config.src + 'scss/' + fileScss;
-    var lintTargetCss = destCss + fileCss;
     gulp.task('css', function () {
         scssCompile(compileScss, destCss);
         success('CSS compiled');
