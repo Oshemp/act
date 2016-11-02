@@ -5,9 +5,10 @@ node_modules/*
 .idea/*
 *.log
 
+_site
 _site/*
 blog/_site
-blog/_site/*
+blog/_site/**/*.*
 blog/.sass-cache
 blog/.jekyll-metadata
 
