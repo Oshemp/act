@@ -6,6 +6,10 @@ node_modules/*
 *.log
 
 _site/*
+blog/_site
+blog/_site/*
+blog/.sass-cache
+blog/.jekyll-metadata
 
 src/lib/**/*.json
 src/lib/**/*.map
