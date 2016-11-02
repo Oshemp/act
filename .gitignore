@@ -8,7 +8,6 @@ Thumbs.db
 .idea/*
 *.log
 
-blog/_site
 blog/.sass-cache
 blog/.jekyll-metadata
 
