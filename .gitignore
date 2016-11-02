@@ -5,6 +5,8 @@ node_modules/*
 .idea/*
 *.log
 
+_site/*
+
 src/lib/**/*.json
 src/lib/**/*.map
 src/lib/**/*.gzip
