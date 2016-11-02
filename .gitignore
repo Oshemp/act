@@ -1,14 +1,14 @@
 goorm.manifest
 node_modules/*
 */node_modules/*
-.DS_Store
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
 .idea/*
 *.log
 
-_site
-_site/*
 blog/_site
-blog/_site/**/*.*
 blog/.sass-cache
 blog/.jekyll-metadata
 
