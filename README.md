@@ -1,2 +1,5 @@
-# OSHxIOS
-It's my testbed. Don't mind. Contents are awful and messy.
+# OSHXIOS
+
+[oshxios@gmail.com](oshxios@gmail.com)
+
+I was clean up unnecessary files.
